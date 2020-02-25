@@ -1,0 +1,10 @@
+{
+    "/api": {
+      "target": "https://storage.googleapis.com/static.aoni.io/demo/",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
